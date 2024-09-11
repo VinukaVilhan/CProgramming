@@ -1,0 +1,10 @@
+calloc and malloc functions are used for memory allocation. 
+
+calloc allocated memory is initialized to 0.
+malloc allocated memory is not initialized.
+
+calloc uses two paramenter in its function; number of elemnts and the size of each element
+malloc uses one paramenter to allocate memory. The total bytes to allocate memory (number of elements * sizeof data type)
+
+malloc works faster because it does not need to set memory as zero
+calloc works slower due to initialization of memory to 0
