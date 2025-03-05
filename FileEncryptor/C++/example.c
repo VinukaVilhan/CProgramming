@@ -32,9 +32,9 @@ int main ()
    int16 skey, stext;
    char *key, *from, *to, *encrypted, *decrypted;
 
-   key = "tomatoes";
+   key = (int8 *)"tomatoes";
    skey= strlen(key);
-   from="ripe but some consider veg yet some fruit";
+   from= (int8 *)"ripe but some consider veg yet some fruit";
    stext = strlen(from);
 
    printf("Initializing encrytion.....");
@@ -47,6 +47,9 @@ int main ()
    printf("'%s' \n ->", from);
 
    encrypted = rc4encrypt(from, stext);
+
+   printbin(key, skey);
     
+    return 0;
 }
 

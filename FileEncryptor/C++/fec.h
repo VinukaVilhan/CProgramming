@@ -4,6 +4,7 @@
 #include <assert.h>
 #include <string.h>
 #include <errno.h>
+#include <openssl/aes.h>
 
 #define rc4decrypt(x,y) rc4encrypt(x,y)
 
