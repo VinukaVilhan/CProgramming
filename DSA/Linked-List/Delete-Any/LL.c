@@ -79,6 +79,20 @@ void print()
     printf("\n");
 }
 
+void freeList()
+{
+    Node* temp = head;
+    Node* nextNode;
+    while (temp != NULL)
+    {
+        nextNode = temp->next;
+        free(temp);
+        temp = nextNode;
+    }
+
+    head = NULL;
+}
+
 int main(){
 
 
@@ -99,5 +113,7 @@ int main(){
     delete(num);
 
     print();
+
+    freeList();
     return 0;
 }
