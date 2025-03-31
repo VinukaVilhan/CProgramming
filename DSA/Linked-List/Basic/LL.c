@@ -39,5 +39,16 @@ int main() {
         printf("%d -> ", temp->data);
         temp = temp->next;
     }
+
+    printf("NULL\n");
+
+    // free the allocated memory
+    temp = node;
+    Node* nextNode;
+    while (temp != NULL) {
+        nextNode = temp->next;
+        free(temp);
+        temp = nextNode;
+    }
     return 0;
 }
