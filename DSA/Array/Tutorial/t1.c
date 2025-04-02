@@ -76,10 +76,12 @@ int main()
 
     printFunc(size);
 
-    // -------------------------------------------------------------------------------
+// -------------------------------------------------------------------------------
 
     // delete the second element of the array
     printf("The second element is deleted \n");
+
+    --pos;
 
     if(!(size >= 2))
     {
@@ -95,6 +97,31 @@ int main()
 
     // reduce array size
     size--;
+
+    printFunc(size);
+
+// ---------------------------------------------------------------------------------------------------------------
+
+    printf("Delete the 0 index element");
+
+    // check arr size
+
+    if (!(size > 0))
+    {
+        printf("Invalid array deletion");
+        return 1;
+    }
+
+    pos = 0;
+
+    // left shift array
+    for(int x = pos; x < size -1 ; x++)
+    {
+        numbers[x] = numbers[x+1];
+    }
+
+    // reduce array size
+    size--; 
 
     printFunc(size);
 
