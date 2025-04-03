@@ -12,7 +12,8 @@ int main(){
     // declare pointer variable
     int *p;
 
-    p = &arr[0][0];
+    // p = &arr[0][0];
+    p = arr[0];
 
     printf("The base address of the array: %p\n", p);
 
