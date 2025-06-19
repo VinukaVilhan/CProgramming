@@ -36,22 +36,20 @@ void enqueue(Queue* queue, int data)
 
 void dequeue(Queue* queue)
 {
-    if(queue == NULL)
+    if(queue->front == NULL)
     {
         printf("Queue is empty\n");
         return;
     }
 
-    Node* temp = (Node*) malloc(sizeof(Node));
+    Node* newNode = queue->front;
 
-    temp = queue->front;
+    queue->front = newNode->next;
+    newNode->next = NULL;
 
-    queue->front = temp->next;
-    temp->next = NULL;
+    printf("Dequeud: %d\n", newNode->data);
 
-    printf("Dequeud: %d\n", temp->data);
-
-    free(temp);
+    free(newNode);
 
 }
 
