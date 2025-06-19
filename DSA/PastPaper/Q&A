@@ -1,0 +1,30 @@
+# Data Structures and Algorithms Questions
+
+## Question 1
+
+(a) Compare and contrast Stack and Queue data structures under two (2) criteria.
+
+1. Order of elements processing?
+
+- Stack follows a LIFO principle, meaning the most recently added element is the first to be removed
+- Queue follows a FIFO principle, meaning the most recently added element is the first one to be removed
+
+1. Operations and Usage
+
+- Stack supports opertaions like push(add an element) and pop(remove an element). It's commonly used in recursive fucntion calls, undo-redo features, and expression evalvation.
+
+- Queue supports enqueue and dequeue. It's useful in request handling, scheduling systems, and real-time data processing.
+
+(b) Explain how a Queue can be implemented using an array?
+
+- An array could be initialized with variables for front and rear to keep track of the begininng and the end of the array.
+- When enqued it will increase the rear position of the array
+- When dequeuing it will remove the first element of the array and increment the head of the array
+- It will always check if the front is larager than the rear to check if it is empty
+
+## Question 2
+
+(a) What is the base condition in the recusrion function?
+
+- This is the condition which stops furthur recursive calls. It serves as a termination criteria.
+  

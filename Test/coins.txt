@@ -1,0 +1,37 @@
+Chathil 30 AU$$
+Rolin 85 EUR
+Chathil 25 AU$
+Chathil 15 US$
+Rohan 90 EUR
+Ravi 10 US$
+Rolin 5 EUR
+Rohan 95 US$
+Ravi 80 AU$
+Sara 45 AU$
+Zane 60 EUR
+Mina 25 US$
+Liam 195 AU$
+Noah 10 US$
+Emma 65 EUR
+Mia 85 AU$
+Ella 20 US$
+Zoe 35 AU$
+Max 50 EUR
+Jane 0 AU$
+Joe 96 EUR
+Bob 50 US$
+Alice -5 AU$
+Mike 100 EUR
+Jane 30 AUSD
+Joe 85 EU
+Bob 50 $$$
+Alice 25 123
+Mike 40 U$D
+Sara 60 au$
+Jane 30
+Joe 85 EUR extra
+50 AU$
+Alice
+Bob 50 EUR
+"" 30 AU$
+Joe 85 EUR
