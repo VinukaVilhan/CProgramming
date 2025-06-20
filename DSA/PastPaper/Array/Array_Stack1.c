@@ -80,7 +80,6 @@ int main(){
         default:
             break;
         }
-        
 
     }while(num != 5);
     
